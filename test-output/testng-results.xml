@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting Done Test starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done Test starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Test Started]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-15T00:55:00 IST" name="Suite" finished-at="2023-02-15T00:55:26 IST" duration-ms="25642">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T00:55:00 IST" name="Test" finished-at="2023-02-15T00:55:26 IST" duration-ms="25642">
+      <class name="com.TestProjectFramework.TestScript.loginScript">
+        <test-method is-config="true" signature="SetReport()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:00 IST" name="SetReport" finished-at="2023-02-15T00:55:00 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetReport -->
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:00 IST" name="initialSetup" finished-at="2023-02-15T00:55:05 IST" duration-ms="4310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting Done Test starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Test Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="validateLogin()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:05 IST" name="validateLogin" finished-at="2023-02-15T00:55:13 IST" duration-ms="7985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:13 IST" name="closeBrowser" finished-at="2023-02-15T00:55:13 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:13 IST" name="initialSetup" finished-at="2023-02-15T00:55:18 IST" duration-ms="5443" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting Done Test starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Test Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:18 IST" name="validateLoginFunctionality" finished-at="2023-02-15T00:55:26 IST" duration-ms="7251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:26 IST" name="closeBrowser" finished-at="2023-02-15T00:55:26 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportFlush()[pri:0, instance:com.TestProjectFramework.TestScript.loginScript@4803b726]" started-at="2023-02-15T00:55:26 IST" name="reportFlush" finished-at="2023-02-15T00:55:28 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.TestProjectFramework.TestScript.loginScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
