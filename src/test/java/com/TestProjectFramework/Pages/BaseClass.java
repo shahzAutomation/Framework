@@ -1,8 +1,6 @@
 package com.TestProjectFramework.Pages;
 
 import java.io.File;
-import java.lang.reflect.Method;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;

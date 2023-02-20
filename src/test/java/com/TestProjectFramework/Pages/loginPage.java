@@ -16,20 +16,20 @@ public class loginPage {
 	@CacheLookup
 	WebElement userName;
 	
-	public void enterUsername() throws Exception
+	public void enterUsername(String username) throws Exception
 	{
 		Thread.sleep(2000);
-		userName.sendKeys("Admin");
+		userName.sendKeys(username);
 	}
 	
 	@FindBy(name="password")
 	@CacheLookup
 	WebElement password;
 	
-	public void enterPassword() throws Exception
+	public void enterPassword(String pwd) throws Exception
 	{
 		Thread.sleep(2000);
-		password.sendKeys("admin123");
+		password.sendKeys(pwd);
 	}
 	
 	@FindBy(xpath="//button")

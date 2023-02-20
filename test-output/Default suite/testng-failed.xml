@@ -6,8 +6,10 @@
       <class name="com.TestProjectFramework.TestScript.loginScript">
         <methods>
           <include name="closeBrowser"/>
-          <include name="validateLogin"/>
+          <include name="validateLogin" invocation-numbers="0 1 3 4 5"/>
+          <include name="reportFlush"/>
           <include name="initialSetup"/>
+          <include name="SetReport"/>
         </methods>
       </class> <!-- com.TestProjectFramework.TestScript.loginScript -->
     </classes>
