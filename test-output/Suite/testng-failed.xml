@@ -9,7 +9,7 @@
       <class name="com.TestProjectFramework.TestScript.loginScript">
         <methods>
           <include name="closeBrowser"/>
-          <include name="validateLogin"/>
+          <include name="validateLogin" invocation-numbers="0"/>
           <include name="reportFlush"/>
           <include name="initialSetup"/>
           <include name="SetReport"/>
