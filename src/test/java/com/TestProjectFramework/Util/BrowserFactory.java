@@ -31,7 +31,7 @@ public class BrowserFactory {
 		}
 		driver.manage().deleteAllCookies();
 		
-		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		
 		driver.manage().window().maximize();
 		
