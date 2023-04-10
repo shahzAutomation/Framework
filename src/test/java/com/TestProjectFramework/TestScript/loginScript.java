@@ -1,7 +1,6 @@
 package com.TestProjectFramework.TestScript;
 
-import org.apache.logging.log4j.*;
-
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
