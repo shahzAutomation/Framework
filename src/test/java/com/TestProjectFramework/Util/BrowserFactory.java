@@ -7,12 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BrowserFactory {
 
 	public static WebDriver startApplication(WebDriver driver, String browser, String appUrl)
 	{
 		if(browser.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("firefox")){
